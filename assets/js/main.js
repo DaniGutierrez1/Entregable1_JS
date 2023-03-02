@@ -64,12 +64,14 @@ while (ingreso == "SI"){
             totalSeguro=seguroContraTodo + categoria + SERVICIO
             console.log(totalSeguro)
             total=totalSeguro
+
         }
     }
+    
     function totalConImp(total){
-        total*1,21
+        return total*1.21
     }
-    const SEGURO=(totalConImp)
+    const SEGURO=totalConImp(total)
     console.log(SEGURO)
 
     document.write("El valor de su seguro numero " + seguros + " es de " + SEGURO + "<br>")
